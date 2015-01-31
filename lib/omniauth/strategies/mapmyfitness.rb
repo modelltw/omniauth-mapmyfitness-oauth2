@@ -10,7 +10,7 @@ module OmniAuth
         :authorize_url => "https://www.mapmyfitness.com/v7.0/oauth2/authorize/",
         :token_url => "https://oauth2-api.mapmyapi.com/v7.0/oauth2/access_token/",
         :connection_opts => {
-          :headers => {'Api-Key' => ENV['MMF_API_KEY']}
+          :headers => {'Api-Key' => ENV['SR_UNDER_ARMOUR_CLIENT_ID']}
         }
       }
 
